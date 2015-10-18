@@ -17,6 +17,10 @@ class ScoreboardSettingsController: UIViewController {
     
     var homeTeamLabel: String?
     
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) { //stops editing when tapped outside
+        self.view.endEditing(true)
+    }
+    
     @IBAction func setHomeTeam(sender: AnyObject) {
         if let teamName = homeTeamTextField.text {
             NSUserDefaults.standardUserDefaults().setObject(teamName, forKey: "homeTeamName")

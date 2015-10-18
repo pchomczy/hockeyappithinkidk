@@ -21,12 +21,25 @@ class ScoreboardSettingsController: UIViewController {
         if let teamName = homeTeamTextField.text {
             NSUserDefaults.standardUserDefaults().setObject(teamName, forKey: "homeTeamName")
         }
+        
+        let alertController = UIAlertController(title: "Home Team Name Was Changed", message:
+            "", preferredStyle: UIAlertControllerStyle.Alert)
+        alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.Default,handler: nil))
+        
+        self.presentViewController(alertController, animated: true, completion: nil)
     }
     
     @IBAction func setAwayTeam(sender: AnyObject) {
         if let teamName = awayTeamTextField.text {
             NSUserDefaults.standardUserDefaults().setObject(teamName, forKey: "awayTeamName")
         }
+        
+        let alertController = UIAlertController(title: "Home Team Name Was Changed", message:
+            "", preferredStyle: UIAlertControllerStyle.Alert)
+        alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.Default,handler: nil))
+        
+        self.presentViewController(alertController, animated: true, completion: nil)
+
     }
 
     @IBAction func returnButton(sender: AnyObject) {

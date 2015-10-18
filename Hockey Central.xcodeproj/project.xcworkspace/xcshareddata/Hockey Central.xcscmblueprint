@@ -1,15 +1,17 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2F53A1D8D14AA3C7FB2BE75E879FD33C1AEF4507",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CF3451FF3390330E8B81D064B5E95C970A5B1B92",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "2F53A1D8D14AA3C7FB2BE75E879FD33C1AEF4507" : 0,
+    "CF3451FF3390330E8B81D064B5E95C970A5B1B92" : 0,
     "C4AAB6E38B004BC4EC0C0EB1C38EA521AB56D0C7" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "06F6909F-F038-4CB1-BF16-225CCCF6827C",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "2F53A1D8D14AA3C7FB2BE75E879FD33C1AEF4507" : "Hockey%20Central\/",
+    "CF3451FF3390330E8B81D064B5E95C970A5B1B92" : "what%20the%20fucl\/",
     "C4AAB6E38B004BC4EC0C0EB1C38EA521AB56D0C7" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Hockey Central",
@@ -25,6 +27,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pchomczy\/HockeyCentral.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C4AAB6E38B004BC4EC0C0EB1C38EA521AB56D0C7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pchomczy\/hockeyappithinkidk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CF3451FF3390330E8B81D064B5E95C970A5B1B92"
     }
   ]
 }

@@ -2,6 +2,8 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -17,15 +19,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Hockey Central" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="vjS-he-pKj">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hockey Central" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="vjS-he-pKj">
                                 <rect key="frame" x="0.0" y="41" width="600" height="138"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="31"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8YU-NC-OYS">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8YU-NC-OYS">
                                 <rect key="frame" x="75" y="242" width="115" height="115"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="115" id="5lP-9X-XWS"/>
+                                    <constraint firstAttribute="width" constant="115" id="HYG-FB-RQz"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="18"/>
                                 <state key="normal" title="Standings">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -38,7 +44,7 @@
                                     <segue destination="8o0-dY-3kX" kind="presentation" id="iEx-c9-T6O"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aus-3Z-8Op">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aus-3Z-8Op">
                                 <rect key="frame" x="243" y="242" width="115" height="115"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="18"/>
                                 <state key="normal" title="Stats">
@@ -52,13 +58,16 @@
                                     <segue destination="jGn-hQ-Gan" kind="presentation" id="4x4-Og-02R"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Made with ❤️ by Jim and Pat at BoilerMake" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="JWp-SG-lWU">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Made with ❤️ by Jim and Pat at BoilerMake" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="JWp-SG-lWU">
                                 <rect key="frame" x="0.0" y="501" width="600" height="99"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="99" id="8oY-Vm-bFE"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="22"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lj5-hl-vQi">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lj5-hl-vQi">
                                 <rect key="frame" x="403" y="242" width="115" height="115"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="18"/>
                                 <state key="normal" title="Scoreboard">
@@ -76,16 +85,26 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.9539772483768022" blue="0.99914895817046157" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="vjS-he-pKj" firstAttribute="centerX" secondItem="aus-3Z-8Op" secondAttribute="centerX" id="1i3-t5-em9"/>
                             <constraint firstItem="vjS-he-pKj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="2Yc-yw-COT"/>
+                            <constraint firstItem="8YU-NC-OYS" firstAttribute="top" secondItem="vjS-he-pKj" secondAttribute="bottom" constant="63" id="BHK-dE-cCt"/>
                             <constraint firstItem="lj5-hl-vQi" firstAttribute="leading" secondItem="aus-3Z-8Op" secondAttribute="trailing" constant="10" id="Fy9-bd-PN6"/>
+                            <constraint firstItem="8YU-NC-OYS" firstAttribute="baseline" secondItem="aus-3Z-8Op" secondAttribute="baseline" id="GDA-DU-nFf"/>
                             <constraint firstAttribute="trailingMargin" secondItem="lj5-hl-vQi" secondAttribute="trailing" constant="10" id="GJp-3U-ncU"/>
+                            <constraint firstItem="aus-3Z-8Op" firstAttribute="baseline" secondItem="lj5-hl-vQi" secondAttribute="firstBaseline" id="Mqc-hT-sut"/>
+                            <constraint firstItem="aus-3Z-8Op" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="R8C-Qz-l2e"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vjS-he-pKj" secondAttribute="trailing" constant="-20" id="Sib-pR-ATn"/>
                             <constraint firstAttribute="trailingMargin" secondItem="JWp-SG-lWU" secondAttribute="trailing" constant="-20" id="TX6-c9-kTZ"/>
+                            <constraint firstItem="lj5-hl-vQi" firstAttribute="baseline" secondItem="aus-3Z-8Op" secondAttribute="firstBaseline" id="TeD-2F-4vE"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="JWp-SG-lWU" secondAttribute="bottom" id="VJ2-ji-FgH"/>
                             <constraint firstItem="8YU-NC-OYS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="YBE-cg-zE0"/>
+                            <constraint firstItem="aus-3Z-8Op" firstAttribute="top" secondItem="lj5-hl-vQi" secondAttribute="top" id="baw-dG-eTY"/>
                             <constraint firstItem="JWp-SG-lWU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="ch9-cw-Zwr"/>
+                            <constraint firstItem="lj5-hl-vQi" firstAttribute="baseline" secondItem="aus-3Z-8Op" secondAttribute="baseline" id="eGy-5p-Gy1"/>
+                            <constraint firstItem="aus-3Z-8Op" firstAttribute="baseline" secondItem="8YU-NC-OYS" secondAttribute="firstBaseline" id="fW7-5S-2gX"/>
                             <constraint firstItem="vjS-he-pKj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="21" id="p3L-7a-WYL"/>
                             <constraint firstItem="vjS-he-pKj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="psh-4D-13v"/>
+                            <constraint firstItem="aus-3Z-8Op" firstAttribute="top" secondItem="8YU-NC-OYS" secondAttribute="top" id="t7o-s7-Hdv"/>
                             <constraint firstItem="JWp-SG-lWU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vUf-E0-FzP"/>
                             <constraint firstItem="aus-3Z-8Op" firstAttribute="leading" secondItem="8YU-NC-OYS" secondAttribute="trailing" constant="10" id="vh0-rV-cto"/>
                         </constraints>
@@ -136,7 +155,7 @@
                                             <rect key="frame" x="15" y="0.0" width="570" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -203,7 +222,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Player Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PHf-zc-YR6">
                                 <rect key="frame" x="185" y="118" width="229" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name...." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WbQ-5D-yMB" customClass="AddViewController" customModule="Hockey_Central" customModuleProvider="target">
@@ -296,7 +315,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="team added Succesfully" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="WrC-Gw-xPX">
                                 <rect key="frame" x="54" y="435" width="266" height="176"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TVM-Tc-fHY">
@@ -591,7 +610,7 @@
                                                     <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -622,7 +641,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Team Standings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="beG-zG-Scb">
                                 <rect key="frame" x="119" y="28" width="137" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>

@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09B9A2901BD1FA71004DD926 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B9A28F1BD1FA71004DD926 /* AppDelegate.swift */; };
+		09B9A2921BD1FA71004DD926 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B9A2911BD1FA71004DD926 /* ViewController.swift */; };
+		09B9A2951BD1FA71004DD926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B9A2931BD1FA71004DD926 /* Main.storyboard */; };
+		09B9A2971BD1FA71004DD926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B9A2961BD1FA71004DD926 /* Assets.xcassets */; };
+		09B9A29A1BD1FA71004DD926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B9A2981BD1FA71004DD926 /* LaunchScreen.storyboard */; };
+		09B9A2A51BD1FA71004DD926 /* Hockey_CentralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B9A2A41BD1FA71004DD926 /* Hockey_CentralTests.swift */; };
+		09B9A2B01BD1FA71004DD926 /* Hockey_CentralUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B9A2AF1BD1FA71004DD926 /* Hockey_CentralUITests.swift */; };
+		09BAF1E61BD33DE500C434C4 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BAF1E51BD33DE500C434C4 /* Player.swift */; settings = {ASSET_TAGS = (); }; };
+		09BAF1E81BD33DF800C434C4 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BAF1E71BD33DF800C434C4 /* ViewController2.swift */; settings = {ASSET_TAGS = (); }; };
+		09BAF1EA1BD33E0500C434C4 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BAF1E91BD33E0500C434C4 /* ViewController3.swift */; settings = {ASSET_TAGS = (); }; };
+		09D783E41BD39A060034B05A /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D783E31BD39A060034B05A /* Team.swift */; settings = {ASSET_TAGS = (); }; };
+		09D783E61BD39A1A0034B05A /* StandingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D783E51BD39A1A0034B05A /* StandingsController.swift */; settings = {ASSET_TAGS = (); }; };
+		09D783E81BD39A290034B05A /* AddTeamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D783E71BD39A290034B05A /* AddTeamController.swift */; settings = {ASSET_TAGS = (); }; };
+		C497CEAE1BD2328C0074DF94 /* ScoreboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C497CEAD1BD2328C0074DF94 /* ScoreboardController.swift */; settings = {ASSET_TAGS = (); }; };
+		C497CEB01BD2D6160074DF94 /* ScoreboardSettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C497CEAF1BD2D6160074DF94 /* ScoreboardSettingsController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09B9A2A11BD1FA71004DD926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09B9A2841BD1FA71004DD926 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09B9A28B1BD1FA71004DD926;
+			remoteInfo = "Hockey Central";
+		};
+		09B9A2AC1BD1FA71004DD926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09B9A2841BD1FA71004DD926 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09B9A28B1BD1FA71004DD926;
+			remoteInfo = "Hockey Central";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09B9A28C1BD1FA71004DD926 /* Hockey Central.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hockey Central.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B9A28F1BD1FA71004DD926 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09B9A2911BD1FA71004DD926 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09B9A2941BD1FA71004DD926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09B9A2961BD1FA71004DD926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09B9A2991BD1FA71004DD926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09B9A29B1BD1FA71004DD926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09B9A2A01BD1FA71004DD926 /* Hockey CentralTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hockey CentralTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B9A2A41BD1FA71004DD926 /* Hockey_CentralTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hockey_CentralTests.swift; sourceTree = "<group>"; };
+		09B9A2A61BD1FA71004DD926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09B9A2AB1BD1FA71004DD926 /* Hockey CentralUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hockey CentralUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B9A2AF1BD1FA71004DD926 /* Hockey_CentralUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hockey_CentralUITests.swift; sourceTree = "<group>"; };
+		09B9A2B11BD1FA71004DD926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09BAF1E51BD33DE500C434C4 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		09BAF1E71BD33DF800C434C4 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		09BAF1E91BD33E0500C434C4 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		09D783E31BD39A060034B05A /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		09D783E51BD39A1A0034B05A /* StandingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingsController.swift; sourceTree = "<group>"; };
+		09D783E71BD39A290034B05A /* AddTeamController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTeamController.swift; sourceTree = "<group>"; };
+		C497CEAD1BD2328C0074DF94 /* ScoreboardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreboardController.swift; sourceTree = "<group>"; };
+		C497CEAF1BD2D6160074DF94 /* ScoreboardSettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreboardSettingsController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09B9A2891BD1FA71004DD926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B9A29D1BD1FA71004DD926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B9A2A81BD1FA71004DD926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09B9A2831BD1FA71004DD926 = {
+			isa = PBXGroup;
+			children = (
+				09B9A28E1BD1FA71004DD926 /* Hockey Central */,
+				09B9A2A31BD1FA71004DD926 /* Hockey CentralTests */,
+				09B9A2AE1BD1FA71004DD926 /* Hockey CentralUITests */,
+				09B9A28D1BD1FA71004DD926 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09B9A28D1BD1FA71004DD926 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09B9A28C1BD1FA71004DD926 /* Hockey Central.app */,
+				09B9A2A01BD1FA71004DD926 /* Hockey CentralTests.xctest */,
+				09B9A2AB1BD1FA71004DD926 /* Hockey CentralUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09B9A28E1BD1FA71004DD926 /* Hockey Central */ = {
+			isa = PBXGroup;
+			children = (
+				09B9A28F1BD1FA71004DD926 /* AppDelegate.swift */,
+				09B9A2911BD1FA71004DD926 /* ViewController.swift */,
+				09B9A2931BD1FA71004DD926 /* Main.storyboard */,
+				C497CEAF1BD2D6160074DF94 /* ScoreboardSettingsController.swift */,
+				C497CEAD1BD2328C0074DF94 /* ScoreboardController.swift */,
+				09B9A2961BD1FA71004DD926 /* Assets.xcassets */,
+				09B9A2981BD1FA71004DD926 /* LaunchScreen.storyboard */,
+				09B9A29B1BD1FA71004DD926 /* Info.plist */,
+				09BAF1E51BD33DE500C434C4 /* Player.swift */,
+				09BAF1E71BD33DF800C434C4 /* ViewController2.swift */,
+				09BAF1E91BD33E0500C434C4 /* ViewController3.swift */,
+				09D783E31BD39A060034B05A /* Team.swift */,
+				09D783E51BD39A1A0034B05A /* StandingsController.swift */,
+				09D783E71BD39A290034B05A /* AddTeamController.swift */,
+			);
+			path = "Hockey Central";
+			sourceTree = "<group>";
+		};
+		09B9A2A31BD1FA71004DD926 /* Hockey CentralTests */ = {
+			isa = PBXGroup;
+			children = (
+				09B9A2A41BD1FA71004DD926 /* Hockey_CentralTests.swift */,
+				09B9A2A61BD1FA71004DD926 /* Info.plist */,
+			);
+			path = "Hockey CentralTests";
+			sourceTree = "<group>";
+		};
+		09B9A2AE1BD1FA71004DD926 /* Hockey CentralUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09B9A2AF1BD1FA71004DD926 /* Hockey_CentralUITests.swift */,
+				09B9A2B11BD1FA71004DD926 /* Info.plist */,
+			);
+			path = "Hockey CentralUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09B9A28B1BD1FA71004DD926 /* Hockey Central */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09B9A2B41BD1FA71004DD926 /* Build configuration list for PBXNativeTarget "Hockey Central" */;
+			buildPhases = (
+				09B9A2881BD1FA71004DD926 /* Sources */,
+				09B9A2891BD1FA71004DD926 /* Frameworks */,
+				09B9A28A1BD1FA71004DD926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hockey Central";
+			productName = "Hockey Central";
+			productReference = 09B9A28C1BD1FA71004DD926 /* Hockey Central.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09B9A29F1BD1FA71004DD926 /* Hockey CentralTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09B9A2B71BD1FA71004DD926 /* Build configuration list for PBXNativeTarget "Hockey CentralTests" */;
+			buildPhases = (
+				09B9A29C1BD1FA71004DD926 /* Sources */,
+				09B9A29D1BD1FA71004DD926 /* Frameworks */,
+				09B9A29E1BD1FA71004DD926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09B9A2A21BD1FA71004DD926 /* PBXTargetDependency */,
+			);
+			name = "Hockey CentralTests";
+			productName = "Hockey CentralTests";
+			productReference = 09B9A2A01BD1FA71004DD926 /* Hockey CentralTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09B9A2AA1BD1FA71004DD926 /* Hockey CentralUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09B9A2BA1BD1FA71004DD926 /* Build configuration list for PBXNativeTarget "Hockey CentralUITests" */;
+			buildPhases = (
+				09B9A2A71BD1FA71004DD926 /* Sources */,
+				09B9A2A81BD1FA71004DD926 /* Frameworks */,
+				09B9A2A91BD1FA71004DD926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09B9A2AD1BD1FA71004DD926 /* PBXTargetDependency */,
+			);
+			name = "Hockey CentralUITests";
+			productName = "Hockey CentralUITests";
+			productReference = 09B9A2AB1BD1FA71004DD926 /* Hockey CentralUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09B9A2841BD1FA71004DD926 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Patrick Chomczyk";
+				TargetAttributes = {
+					09B9A28B1BD1FA71004DD926 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = P522GWS4XX;
+					};
+					09B9A29F1BD1FA71004DD926 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 09B9A28B1BD1FA71004DD926;
+					};
+					09B9A2AA1BD1FA71004DD926 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 09B9A28B1BD1FA71004DD926;
+					};
+				};
+			};
+			buildConfigurationList = 09B9A2871BD1FA71004DD926 /* Build configuration list for PBXProject "Hockey Central" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09B9A2831BD1FA71004DD926;
+			productRefGroup = 09B9A28D1BD1FA71004DD926 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09B9A28B1BD1FA71004DD926 /* Hockey Central */,
+				09B9A29F1BD1FA71004DD926 /* Hockey CentralTests */,
+				09B9A2AA1BD1FA71004DD926 /* Hockey CentralUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09B9A28A1BD1FA71004DD926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B9A29A1BD1FA71004DD926 /* LaunchScreen.storyboard in Resources */,
+				09B9A2971BD1FA71004DD926 /* Assets.xcassets in Resources */,
+				09B9A2951BD1FA71004DD926 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B9A29E1BD1FA71004DD926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B9A2A91BD1FA71004DD926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09B9A2881BD1FA71004DD926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D783E81BD39A290034B05A /* AddTeamController.swift in Sources */,
+				C497CEB01BD2D6160074DF94 /* ScoreboardSettingsController.swift in Sources */,
+				09B9A2921BD1FA71004DD926 /* ViewController.swift in Sources */,
+				09B9A2901BD1FA71004DD926 /* AppDelegate.swift in Sources */,
+				09D783E61BD39A1A0034B05A /* StandingsController.swift in Sources */,
+				09BAF1E61BD33DE500C434C4 /* Player.swift in Sources */,
+				09D783E41BD39A060034B05A /* Team.swift in Sources */,
+				C497CEAE1BD2328C0074DF94 /* ScoreboardController.swift in Sources */,
+				09BAF1EA1BD33E0500C434C4 /* ViewController3.swift in Sources */,
+				09BAF1E81BD33DF800C434C4 /* ViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B9A29C1BD1FA71004DD926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B9A2A51BD1FA71004DD926 /* Hockey_CentralTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B9A2A71BD1FA71004DD926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B9A2B01BD1FA71004DD926 /* Hockey_CentralUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09B9A2A21BD1FA71004DD926 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09B9A28B1BD1FA71004DD926 /* Hockey Central */;
+			targetProxy = 09B9A2A11BD1FA71004DD926 /* PBXContainerItemProxy */;
+		};
+		09B9A2AD1BD1FA71004DD926 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09B9A28B1BD1FA71004DD926 /* Hockey Central */;
+			targetProxy = 09B9A2AC1BD1FA71004DD926 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09B9A2931BD1FA71004DD926 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09B9A2941BD1FA71004DD926 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09B9A2981BD1FA71004DD926 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09B9A2991BD1FA71004DD926 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09B9A2B21BD1FA71004DD926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09B9A2B31BD1FA71004DD926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09B9A2B51BD1FA71004DD926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Hockey Central/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Hockey-Central2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		09B9A2B61BD1FA71004DD926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Hockey Central/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Hockey-Central2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		09B9A2B81BD1FA71004DD926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hockey CentralTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Hockey-CentralTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hockey Central.app/Hockey Central";
+			};
+			name = Debug;
+		};
+		09B9A2B91BD1FA71004DD926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hockey CentralTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Hockey-CentralTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hockey Central.app/Hockey Central";
+			};
+			name = Release;
+		};
+		09B9A2BB1BD1FA71004DD926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hockey CentralUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Hockey-CentralUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hockey Central";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		09B9A2BC1BD1FA71004DD926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hockey CentralUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Hockey-CentralUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hockey Central";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09B9A2871BD1FA71004DD926 /* Build configuration list for PBXProject "Hockey Central" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B9A2B21BD1FA71004DD926 /* Debug */,
+				09B9A2B31BD1FA71004DD926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09B9A2B41BD1FA71004DD926 /* Build configuration list for PBXNativeTarget "Hockey Central" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B9A2B51BD1FA71004DD926 /* Debug */,
+				09B9A2B61BD1FA71004DD926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09B9A2B71BD1FA71004DD926 /* Build configuration list for PBXNativeTarget "Hockey CentralTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B9A2B81BD1FA71004DD926 /* Debug */,
+				09B9A2B91BD1FA71004DD926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09B9A2BA1BD1FA71004DD926 /* Build configuration list for PBXNativeTarget "Hockey CentralUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B9A2BB1BD1FA71004DD926 /* Debug */,
+				09B9A2BC1BD1FA71004DD926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09B9A2841BD1FA71004DD926 /* Project object */;
+}

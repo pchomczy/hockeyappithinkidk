@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2F53A1D8D14AA3C7FB2BE75E879FD33C1AEF4507",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2F53A1D8D14AA3C7FB2BE75E879FD33C1AEF4507" : 0,
+    "C4AAB6E38B004BC4EC0C0EB1C38EA521AB56D0C7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "06F6909F-F038-4CB1-BF16-225CCCF6827C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2F53A1D8D14AA3C7FB2BE75E879FD33C1AEF4507" : "Hockey%20Central\/",
+    "C4AAB6E38B004BC4EC0C0EB1C38EA521AB56D0C7" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Hockey Central",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Hockey Central.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pchomczy\/HockeyFinalPinkyPromise.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2F53A1D8D14AA3C7FB2BE75E879FD33C1AEF4507"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pchomczy\/HockeyCentral.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C4AAB6E38B004BC4EC0C0EB1C38EA521AB56D0C7"
+    }
+  ]
+}
